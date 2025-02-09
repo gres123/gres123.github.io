@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#members">Team Members</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h1>Meet Our Team</h1>
+        <p>We are a group of passionate individuals dedicated to making the world a better place!</p>
+    </section>
+
+    <section id="members">
+        <div class="team-member">
+            <img src="member1.jpg" alt="Member 1">
+            <div class="bio">
+                <h2>John Doe</h2>
+                <p>John is the creative mind of our team. He loves building and designing amazing projects.</p>
+            </div>
+        </div>
+
+        <div class="team-member">
+            <img src="member2.jpg" alt="Member 2">
+            <div class="bio">
+                <h2>Jane Smith</h2>
+                <p>Jane is an expert coder. She brings our ideas to life through her amazing programming skills.</p>
+            </div>
+        </div>
+
+        <div class="team-member">
+            <img src="member3.jpg" alt="Member 3">
+            <div class="bio">
+                <h2>George Martin</h2>
+                <p>George handles all our communication and makes sure everything runs smoothly.</p>
+            </div>
+        </div>
+
+        <div class="team-member">
+            <img src="member4.jpg" alt="Member 4">
+            <div class="bio">
+                <h2>Linda Williams</h2>
+                <p>Linda is our project manager. She ensures that everything stays on track and meets deadlines.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>Contact us at: info@ourteam.com</p>
+    </footer>
+</body>
+</html>
