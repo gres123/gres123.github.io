@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bowling Scorecard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Bowling Scorecard</h1>
+    <table class="scorecard">
+        <thead>
+            <tr>
+                <th>Player</th>
+                <th>Game 1</th>
+                <th>Game 2</th>
+                <th>Game 3</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Player 1</td>
+                <td>180</td>
+                <td>210</td>
+                <td>190</td>
+                <td>580</td>
+            </tr>
+            <tr>
+                <td>Player 2</td>
+                <td>170</td>
+                <td>200</td>
+                <td>180</td>
+                <td>550</td>
+            </tr>
+            <!-- Add more rows for additional players -->
+        </tbody>
+    </table>
+</body>
+</html>
