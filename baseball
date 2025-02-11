@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baseball Scorecard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Baseball Scorecard</h1>
+    <table class="scorecard">
+        <thead>
+            <tr>
+                <th>Player</th>
+                <th>At Bats</th>
+                <th>Hits</th>
+                <th>Home Runs</th>
+                <th>RBIs</th>
+                <th>Batting Average</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Player 1</td>
+                <td>4</td>
+                <td>2</td>
+                <td>1</td>
+                <td>3</td>
+                <td>.500</td>
+            </tr>
+            <tr>
+                <td>Player 2</td>
+                <td>3</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>.333</td>
+            </tr>
+            <!-- Add more rows for additional players -->
+        </tbody>
+    </table>
+</body>
+</html>
