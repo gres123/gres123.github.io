@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Embed a YouTube Video</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>How to Embed a YouTube Video in Your Website</h1>
+    </header>
+
+    <section class="tutorial">
+        <h2>Step 1: Find the Video You Want to Embed</h2>
+        <p>Go to the YouTube website and search for the video you want to embed. You can select any video that has the 'Embed' feature enabled.</p>
+        <img src="screenshots/step1.png" alt="Finding the video on YouTube">
+        
+        <h2>Step 2: Click on the Share Button</h2>
+        <p>Click on the 'Share' button below the video player.</p>
+        <img src="screenshots/step2.png" alt="Clicking on the Share button">
+
+        <h2>Step 3: Select Embed from the Share Options</h2>
+        <p>From the options that appear, click on 'Embed'. This will give you an HTML code to embed the video into your website.</p>
+        <img src="screenshots/step3.png" alt="Selecting Embed from the Share menu">
+
+        <h2>Step 4: Copy the Embed Code</h2>
+        <p>Copy the iframe embed code provided. You can also adjust the video size before copying the code.</p>
+        <img src="screenshots/step4.png" alt="Copying the embed code">
+
+        <h2>Step 5: Paste the Embed Code Into Your Website</h2>
+        <p>Go to your website’s HTML file and paste the iframe code where you want the video to appear.</p>
+        <img src="screenshots/step5.png" alt="Pasting the embed code into the HTML file">
+
+        <h2>Step 6: View Your Embedded Video</h2>
+        <p>Once you paste the code into your website, the video will appear. Below is the embedded pet video example:</p>
+        
+        <!-- Embedded YouTube video -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/lE_v_eHbOVY" frameborder="0" allowfullscreen></iframe>
+    </section>
+</body>
+</html>
