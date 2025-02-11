@@ -1,0 +1,31 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid and Flexbox Puzzle</title>
+    <link rel="stylesheet" href="style.css">
+   https://s3.amazonaws.com/content.accelerate-ed.com/Secondary/docs/BasicWebDesign_AE/images/4.4_puzzle1.zip
+    <link rel="stylesheet" href="flex.css"> 
+</head>
+<body>
+    <div class="grid-container">
+        <section class="name-section">
+            <h1>Your Name</h1>
+            <h2>Puzzle: [Puzzle Name]</h2>
+        </section>
+        <section class="puzzle-section">
+            <div class="flex-container">
+                <img class="puzzle-piece" src="images/piece1.jpg" alt="Piece 1">
+                <img class="puzzle-piece" src="images/piece2.jpg" alt="Piece 2">
+                <img class="puzzle-piece" src="images/piece3.jpg" alt="Piece 3">
+                <img class="puzzle-piece" src="images/piece4.jpg" alt="Piece 4">
+                <img class="puzzle-piece faulty" src="images/faulty.jpg" alt="Faulty Piece">
+            </div>
+        </section>
+        <section class="date-section">
+            <p>Assignment Date: February 4, 2025</p> 
+        </section>
+    </div>
+</body>
+</html>
